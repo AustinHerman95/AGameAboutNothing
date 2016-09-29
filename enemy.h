@@ -5,7 +5,7 @@
 #include "player.h"
 #include <cmath>
 
-class Enemy: public Moveable_Animate
+class Enemy: public Animate
 {
 public:
 	Enemy();
