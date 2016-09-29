@@ -7,7 +7,7 @@
 #include "object.h"
 
 // What the user controls, this does all sort of things
-class Player : public sf::Drawable, public sf::Transformable, public Moveable_Animate
+class Player : public sf::Drawable, public sf::Transformable, public Animate
 {
 public:
 	Player();
