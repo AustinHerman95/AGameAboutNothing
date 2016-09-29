@@ -119,7 +119,7 @@ void Player::move(sf::Clock* clock, int& actionCount)
 	{
 		if(clock->getElapsedTime().asSeconds() > 0.1f)
 		{
-			animate();
+			walking();
 			clock->restart();
 			if(swinging)
 					actionCount++;
